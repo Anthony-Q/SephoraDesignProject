@@ -1,0 +1,62 @@
+{
+  "name": "fullstack-workshop",
+  "version": "1.0.0",
+  "description": "#Exercise-1 <br /> Build out the file structure for your fullstack app and install of the the dependencies that you think you will need.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "nodemon ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidEngelstad/fullstack-workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidEngelstad/fullstack-workshop/issues"
+  },
+  "homepage": "https://github.com/DavidEngelstad/fullstack-workshop#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel": "6.23.0",
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.5",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "cors": "^2.8.4",
+    "css": "^2.2.4",
+    "css-loader": "^1.0.0",
+    "express": "4.16.3",
+    "extract": "^1.0.0",
+    "flickity": "^2.1.2",
+    "loader": "^2.1.1",
+    "mini": "^1.1.0",
+    "mongodb": "3.1.4",
+    "mongoose": "5.2.12",
+    "nodemon": "1.18.4",
+    "nuka-carousel": "^4.3.11",
+    "plugin": "^0.3.3",
+    "pure-react-carousel": "^1.13.2",
+    "react": "^16.4.2",
+    "react-css-modules": "^4.7.7",
+    "react-dom": "16.4.2",
+    "react-items-carousel": "^2.2.1",
+    "react-star-ratings": "^2.3.0",
+    "sass": "^1.13.4",
+    "sass-loader": "^7.1.0",
+    "scss": "^0.2.4",
+    "style": "0.0.3",
+    "style-loader": "^0.23.0",
+    "styled-components": "^3.4.9",
+    "webpack": "4.17.2",
+    "webpack-command": "0.4.1"
+  },
+  "devDependencies": {
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "mini-css-extract-plugin": "^0.4.3",
+    "react-alice-carousel": "^1.10.6"
+  }
+}
