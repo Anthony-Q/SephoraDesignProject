@@ -1,0 +1,73 @@
+.subContainer2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin: 1px;
+  padding-top: 1px;
+  max-width: 250px;
+  min-width: 250px;
+  height: 173px;
+  word-wrap: break-word;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.sub2name {
+  display: block;
+  font-size: 16px;
+  line-height: 1.25;
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.sub2description {
+  display: block;
+  font-size: 16px;
+  line-height: 1.25;
+}
+.sub2size {
+  display: block;
+  font-size: 12px;
+  line-height: 1.25;
+  color: #777;
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
+.reviewsBox {
+  display: block;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1;
+}
+.stars {
+  display: inline-block;
+  top: 0.0625em;
+  height: 1em;
+}
+.divider {
+  display: inline-block;
+  height: 1.125em;
+  vertical-align: text-bottom;
+  border-color: #ccc;
+  margin-left: 0.75em;
+  border-left-width: 1px;
+  border-left-style: solid;
+}
+.loves {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1;
+}
+.lovesSVGblack {
+  transform: scale(0.55);
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  fill: currentcolor;
+  width: 2.3em;
+  height: 1.865em;
+  color: rgb(0, 0, 0);
+  margin-right: -0.2em;
+  font-size: 1.167em;
+  box-sizing: border-box;
+}

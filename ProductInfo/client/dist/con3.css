@@ -1,0 +1,26 @@
+.subContainer3 {
+  display: block;
+  background-color: #ffffff;
+  padding-left: 6px;
+  padding-right: 6px;
+  width: 124px;
+  min-width: 124px;
+  max-width: 124px;
+  height: 173px;
+  box-sizing: border-box;
+}
+.sub3price {
+  display: block;
+  font-weight: 700;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.25;
+}
+.sub3ship {
+  word-wrap: break-word;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.25;
+}
