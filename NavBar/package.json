@@ -1,0 +1,55 @@
+{
+  "name": "sephoranavbar",
+  "version": "1.0.0",
+  "description": "Clone of Sephora's Navigation Bar",
+  "main": "server/index.js",
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ],
+    "plugins": [
+      "styled-components"
+    ]
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --w",
+    "start": "nodemon ./server"
+  },
+  "author": "Drew",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-styled-components": "^1.7.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.3",
+    "chai": "^4.1.2",
+    "chai-enzyme": "^1.0.0-beta.1",
+    "css-loader": "^1.0.0",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "express": "^4.16.3",
+    "express-http-proxy": "^1.2.0",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.2.13",
+    "nodemon": "^1.18.4",
+    "path": "^0.12.7",
+    "react": "^16.4.2",
+    "react-css-modules": "^4.7.7",
+    "react-dom": "^16.4.2",
+    "react-svg-loader": "^2.1.0",
+    "sinon": "^6.3.4",
+    "sinon-chai": "^3.2.0",
+    "style-loader": "^0.23.0",
+    "styled-components": "^3.4.8",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
